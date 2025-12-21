@@ -79,6 +79,7 @@ public sealed partial class ChatUIController : UIController
         {SharedChatSystem.WhisperPrefix, ChatSelectChannel.Whisper},
         {SharedChatSystem.ConsolePrefix, ChatSelectChannel.Console},
         {SharedChatSystem.LOOCPrefix, ChatSelectChannel.LOOC},
+        {SharedChatSystem.SubtleLOOCPrefix, ChatSelectChannel.SubtleLOOC},
         {SharedChatSystem.OOCPrefix, ChatSelectChannel.OOC},
         {SharedChatSystem.EmotesPrefix, ChatSelectChannel.Emotes},
         {SharedChatSystem.EmotesAltPrefix, ChatSelectChannel.Emotes},
@@ -94,6 +95,7 @@ public sealed partial class ChatUIController : UIController
         {ChatSelectChannel.Whisper, SharedChatSystem.WhisperPrefix},
         {ChatSelectChannel.Console, SharedChatSystem.ConsolePrefix},
         {ChatSelectChannel.LOOC, SharedChatSystem.LOOCPrefix},
+        {ChatSelectChannel.SubtleLOOC, SharedChatSystem.SubtleLOOCPrefix},
         {ChatSelectChannel.OOC, SharedChatSystem.OOCPrefix},
         {ChatSelectChannel.Emotes, SharedChatSystem.EmotesPrefix},
         {ChatSelectChannel.Subtle, SharedChatSystem.SubtlePrefix}, // Floofstation
@@ -207,6 +209,9 @@ public sealed partial class ChatUIController : UIController
 
         _input.SetInputCommand(ContentKeyFunctions.FocusLOOC,
             InputCmdHandler.FromDelegate(_ => FocusChannel(ChatSelectChannel.LOOC)));
+
+        _input.SetInputCommand(ContentKeyFunctions.FocusSubtleLOOC,
+            InputCmdHandler.FromDelegate(_ => FocusChannel(ChatSelectChannel.SubtleLOOC)));
 
         _input.SetInputCommand(ContentKeyFunctions.FocusOOC,
             InputCmdHandler.FromDelegate(_ => FocusChannel(ChatSelectChannel.OOC)));
@@ -523,8 +528,10 @@ public sealed partial class ChatUIController : UIController
         // can always send/recieve OOC
         CanSendChannels |= ChatSelectChannel.OOC;
         CanSendChannels |= ChatSelectChannel.LOOC;
+        CanSendChannels |= ChatSelectChannel.SubtleLOOC;
         FilterableChannels |= ChatChannel.OOC;
         FilterableChannels |= ChatChannel.LOOC;
+        FilterableChannels |= ChatChannel.SubtleLOOC;
 
         // can always hear server (nobody can actually send server messages).
         FilterableChannels |= ChatChannel.Server;
@@ -897,6 +904,10 @@ public sealed partial class ChatUIController : UIController
             case ChatChannel.LOOC:
                 if (_config.GetCVar(CCVars.LoocAboveHeadShow))
                     AddSpeechBubble(msg, SpeechBubble.SpeechType.Looc);
+                break;
+
+            case ChatChannel.SubtleLOOC:
+                AddSpeechBubble(msg, SpeechBubble.SpeechType.SubtleLooc);
                 break;
         }
     }

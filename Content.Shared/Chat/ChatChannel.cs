@@ -4,7 +4,7 @@ namespace Content.Shared.Chat
     ///     Represents chat channels that the player can filter chat tabs by.
     /// </summary>
     [Flags]
-    public enum ChatChannel : UInt32
+    public enum ChatChannel : uint
     {
         None = 0,
 
@@ -94,6 +94,11 @@ namespace Content.Shared.Chat
         ///     Subtle - Floofstation
         /// </summary>
         Subtle = 1 << 16,
+
+        /// <summary>
+        ///     SubtleLOOC
+        /// </summary>
+        SubtleLOOC = 1 << 17,
 
         /// <summary>
         ///     Channels considered to be IC.
