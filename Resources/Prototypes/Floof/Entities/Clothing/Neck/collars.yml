@@ -3,9 +3,7 @@
   id: ClothingNeckCollarBase
   abstract: true
   components:
-  - type: Clothing
-  - type: LeashAnchor
-    offset: 0, 0.22
+    - type: Clothing
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -13,10 +11,10 @@
   name: blue collar
   description: A cute blue collar.
   components:
-  - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_blue.rsi
-  - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_blue.rsi
+    - type: Sprite
+      sprite: Floof/Clothing/Neck/collar_blue.rsi
+    - type: Clothing
+      sprite: Floof/Clothing/Neck/collar_blue.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -24,10 +22,10 @@
   name: black collar
   description: A cute black collar.
   components:
-  - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_black.rsi
-  - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_black.rsi
+    - type: Sprite
+      sprite: Floof/Clothing/Neck/collar_black.rsi
+    - type: Clothing
+      sprite: Floof/Clothing/Neck/collar_black.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -35,10 +33,10 @@
   name: pink collar
   description: A cute pink collar.
   components:
-  - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_pink.rsi
-  - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_pink.rsi
+    - type: Sprite
+      sprite: Floof/Clothing/Neck/collar_pink.rsi
+    - type: Clothing
+      sprite: Floof/Clothing/Neck/collar_pink.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -46,10 +44,10 @@
   name: epistemics collar
   description: A collar showing how loyal you are to science!
   components:
-  - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_epi.rsi
-  - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_epi.rsi
+    - type: Sprite
+      sprite: Floof/Clothing/Neck/collar_epi.rsi
+    - type: Clothing
+      sprite: Floof/Clothing/Neck/collar_epi.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -57,10 +55,10 @@
   name: engineering collar
   description: A collar showing your deft skill utilizing your hands!
   components:
-  - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_engi.rsi
-  - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_engi.rsi
+    - type: Sprite
+      sprite: Floof/Clothing/Neck/collar_engi.rsi
+    - type: Clothing
+      sprite: Floof/Clothing/Neck/collar_engi.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -68,10 +66,10 @@
   name: logistics collar
   description: Who's a good courier?
   components:
-  - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_logi.rsi
-  - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_logi.rsi
+    - type: Sprite
+      sprite: Floof/Clothing/Neck/collar_logi.rsi
+    - type: Clothing
+      sprite: Floof/Clothing/Neck/collar_logi.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -79,10 +77,10 @@
   name: medical collar
   description: Put your patients at ease by letting them know you're here to help.
   components:
-  - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_med.rsi
-  - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_med.rsi
+    - type: Sprite
+      sprite: Floof/Clothing/Neck/collar_med.rsi
+    - type: Clothing
+      sprite: Floof/Clothing/Neck/collar_med.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -90,10 +88,10 @@
   name: security collar
   description: Be the best guard dog on the station!
   components:
-  - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_sec.rsi
-  - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_sec.rsi
+    - type: Sprite
+      sprite: Floof/Clothing/Neck/collar_sec.rsi
+    - type: Clothing
+      sprite: Floof/Clothing/Neck/collar_sec.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -101,10 +99,10 @@
   name: Captain's collar
   description: The top dog (or cat) around.
   components:
-  - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_cmd.rsi
-  - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_cmd.rsi
+    - type: Sprite
+      sprite: Floof/Clothing/Neck/collar_cmd.rsi
+    - type: Clothing
+      sprite: Floof/Clothing/Neck/collar_cmd.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -112,10 +110,10 @@
   name: CentCom collar
   description: All bark with a whole lotta bite.
   components:
-  - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_cc.rsi
-  - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_cc.rsi
+    - type: Sprite
+      sprite: Floof/Clothing/Neck/collar_cc.rsi
+    - type: Clothing
+      sprite: Floof/Clothing/Neck/collar_cc.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -123,7 +121,7 @@
   name: Blood-Red collar
   description: Sometimes you gotta be naughty.
   components:
-  - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_syndi.rsi
-  - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_syndi.rsi
+    - type: Sprite
+      sprite: Floof/Clothing/Neck/collar_syndi.rsi
+    - type: Clothing
+      sprite: Floof/Clothing/Neck/collar_syndi.rsi

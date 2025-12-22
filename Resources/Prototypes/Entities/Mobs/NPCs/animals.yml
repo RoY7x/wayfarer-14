@@ -274,7 +274,6 @@
     - type: HTN # Frontier
       rootTask: # Frontier
         task: RuminantCompound # Frontier
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   parent: MobChicken
@@ -641,7 +640,6 @@
             32:
               sprite: Mobs/Animals/mothroach/displacement.rsi
               state: neck
-    - type: LeashAnchor # Floofstation - mothroach my beloved <3
 
 # Note that the mallard duck is actually a male drake mallard, with the brown duck being the female variant of the same species, however ss14 lacks sex specific textures
 # The white duck is more akin to a pekin or call duck.
@@ -719,7 +717,6 @@
     - type: NpcFactionMember
       factions:
         - Passive
-    - type: LeashAnchor # Floofstation
     - type: HTN # Frontier
       rootTask: # Frontier
         task: RuminantCompound # Frontier
@@ -934,7 +931,6 @@
       guides:
         - Chef
         - FoodRecipes
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   name: crab
@@ -1107,7 +1103,6 @@
     - type: HTN
       rootTask:
         task: RuminantHostileCompound
-    - type: LeashAnchor # Floofstation
 
 # Note that we gotta make this bitch vomit someday when you feed it anthrax or sumthin. Needs to be a small item thief too and aggressive if attacked.
 - type: entity
@@ -1157,7 +1152,6 @@
     - type: NpcFactionMember
       factions:
         - Passive
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   name: gorilla
@@ -1230,7 +1224,6 @@
         250: Dead
     - type: StaminaResistance
       damageCoefficient: 0.40
-    - type: LeashAnchor # Floofstation
 - type: entity
   name: kangaroo
   parent:
@@ -1313,7 +1306,6 @@
     - type: HTN
       rootTask:
         task: SimpleHostileCompound
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   name: boxing kangaroo
@@ -1443,7 +1435,6 @@
           effects:
             - !type:WashCreamPieReaction
     - type: LabGrown # Frontier
-    - type: LeashAnchor # Floofstation
     - type: Crawler
 
 - type: entity
@@ -1884,7 +1875,6 @@
           behaviors:
             - !type:GibBehavior
               recursive: false
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   parent: MobMouse
@@ -2078,7 +2068,6 @@
     - type: Tag
       tags:
         - VimPilot
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   name: slug
@@ -2422,6 +2411,7 @@
           behaviors:
             - !type:ExplodeBehavior # I have included a snake_hiss.ogg sound file so if you want to use that be my guest
 
+
 - type: entity
   name: snake
   parent: SimpleMobBase
@@ -2737,7 +2727,6 @@
     - type: Tag
       tags:
         - VimPilot
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   name: possum
@@ -2812,7 +2801,6 @@
     - type: Tag
       tags:
         - VimPilot
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   name: fox
@@ -2891,7 +2879,6 @@
     - type: Tag
       tags:
         - VimPilot
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   abstract: true
@@ -2959,7 +2946,6 @@
     - type: Tag
       tags:
         - VimPilot
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   name: corrupted corgi
@@ -3142,7 +3128,6 @@
       factions:
         - Cat
     # End DeltaV
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   name: calico cat
@@ -3419,7 +3404,6 @@
     - type: Tag
       tags:
         - VimPilot
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   name: hamster
@@ -3570,7 +3554,6 @@
           behaviors:
             - !type:GibBehavior
               recursive: false
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   name: pig
@@ -3642,7 +3625,6 @@
     - type: HTN
       rootTask:
         task: RuminantCompound
-    - type: LeashAnchor # Floofstation
 
 - type: entity
   name: diona nymph
