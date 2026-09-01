@@ -3,3 +3,9 @@
   values:
     prefix: advertisement-coyote-
     count: 1
+
+- type: localizedDataset
+  id: CoyoteGoodbyes
+  values:
+    prefix: thankyou-coyote-
+    count: 1
