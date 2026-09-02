@@ -1,104 +1,101 @@
 - type: vendingMachineInventory
-  id: CoyoteVendInventory
+  id: StarlightVendInventory
   startingInventory:
-  # == Jumpsuits
-  IMPClothingUniformCircusClown: 5
-  IMPClothingUniformJokester: 5
-  IMPClothingUniformHitmanSuit: 5
-  IMPClothingUniformBurglarJumpsuit: 5
-  IMPClothingUniformFuneralSuit: 5
-  IMPClothingUniformNightclubSuit: 5
-  IMPClothingUniformMrSpaceWide: 5
-  IMPClothingUniformBrownSuit: 5
-  IMPClothingUniformCreamSuit: 5
-  IMPClothingUniformDetectiveSuit: 5
-  IMPClothingUniformMiamiVice: 5
-  IMPClothingUniformSeniorBartender: 5
-  IMPClothingUniformBrosBlazer: 5
-  IMPClothingUniformJesterEvil: 5
-  IMPClothingUniformSailorSuit: 5
-  IMPClothingUniformJumpsuitMimeCropped: 5
-  IMPClothingUniformJumpsuitMimeNouveau: 5
-  IMPClothingUniformJumpsuitCourier: 5
-  IMPClothingUniformSpaceJumpsuitCasualBrown: 5
-  IMPClothingUniformSpaceJumpsuitCasualTriColor: 5
-  IMPClothingUniformSpaceJumpsuitCasualMulti: 5
-  IMPClothingUniformSpaceJumpsuitCasualBlue: 5
-  IMPClothingUniformJumpsuitMusicianMarchingBand: 5
-  IMPClothingUniformJumpsuitTailcoatSuit: 5
-  # == Outer Clothing
-  IMPClothingOuterCoatJokester: 5
-  IMPClothingOuterCoatPufferDark: 5
-  IMPClothingOuterCoatPufferRed: 5
-  IMPClothingOuterCoatPufferBlue: 5
-  IMPClothingOuterCoatPufferMime: 5
-  IMPClothingOuterCoatPufferSilver: 5
-  IMPClothingOuterCoatPufferPink: 5
-  IMPClothingOuterCoatBomberBlack: 5
-  IMPClothingOuterCoatBomberBlackLoose: 5
-  IMPClothingOuterCoatBomberWhite: 5
-  IMPClothingOuterCoatBomberWhiteLoose: 5
-  IMPClothingOuterCoatBomberCargo: 5
-  IMPClothingOuterCoatBomberCargoLoose: 5
-  IMPClothingOuterCoatBomberAtmosHolo: 5
-  IMPClothingOuterCoatBomberAtmosHoloLoose: 5
-  IMPClothingOuterCoatWebSweater: 5
-  IMPClothingOuterCoatMusicianFurCoat: 5
-  IMPClothingOuterCoatVRexFurCoat: 5
-  IMPClothingOuterCowVest: 5
-  IMPClothingOuterBlackVest: 5
-  IMPClothingOuterRainCape: 5
-  IMPClothingOuterWhitePoncho: 5
-  IMPClothingOuterQMPoncho: 5
-  IMPClothingOuterBlackPoncho: 5
-  IMPClothingOuterChapsBrown: 5
-  IMPClothingOuterChapsWhite: 5
-  IMPClothingOuterChapsBlack: 5
-  IMPClothingOuterChapsFancy: 5
-  # == Head Accessories
-  IMPClothingHeadHatCircusClown: 5
-  IMPClothingHeadDevilHorns: 5
-  IMPClothingHeadJesterEvilHat: 5
-  IMPClothingHeadDeerstalker: 5
-  IMPClothingHeadSailorCap: 5
-  IMPClothingHeadFloatingFloraCrown: 5
-  IMPClothingHeadHatMimeBowler: 5
-  IMPClothingHeadHatBucketHat: 5
-  IMPClothingHeadHatPompombow: 5
-  IMPClothingHeadHatPompomear: 5
-  IMPClothingHeadHatCuteTiara: 5
-  IMPClothingHeadHatSimpleTiara: 5
-  IMPClothingHeadHatPrincess: 5
-  IMPClothingHeadHatGreenEscoffion: 5
-  IMPClothingHeadHatBlackVeil: 5
-  # == Chaplain Specific
-  # ==== Uniforms
-  ClothingUniformSkirtClayshaper: 5
-  ClothingUniformSkirtDruid: 5
-  ClothingUniformSkirtMoon: 5
-  ClothingUniformSun: 5
-  ClothingUniformTech: 5
-  ClothingUniformSkirtTidal: 5
-  # ==== Outer Clothing
-  ClothingOuterMoon: 5
-  ClothingOuterSilent: 5
-  # ==== Neck Accessories
-  ClothingNeckChaplainDragon: 5
-  ClothingNeckClayshaper: 5
-  ClothingNeckDruid: 5
-  # ==== Masks
-  ClothingMaskClayshaper: 5
-  ClothingMaskFire: 5
-  ClothingMaskSilent: 5
-  # ==== Head Accessories
-  ClothingHeadHatDruid: 5
-  ClothingHeadHatMoon: 5
-  ClothingHeadHatSun: 5
-  ClothingHeadHatTidal: 5
-  # ==== Eyewear
-  ClothingEyesChaplainBlindfold: 5
-  # ==== Belt
-  ClothingBeltChaplainDragon: 5
+    # == Jumpsuits
+    SLClothingUniformJumpsuitSuitCheckered: 5
+    SLClothingUniformJumpsuitSuitTan: 5
+    SLClothingUniformJumpsuitSuitWaiter: 5
+    SLClothingUniformJumpsuitCargoAlt: 5
+    SLClothingUniformJumpsuitCargoFormal: 5
+    SLClothingUniformJumpsuitSalvageFormal: 5
+    SLClothingUniformJumpsuitCoroner: 5
+    SLClothingUniformJumpsuitCoronerAlt: 5
+    SLClothingUniformJumpsuitSuperstarCop: 5
+    SLClothingUniformJumpsuitAerostatic: 5
+    SLClothingUniformJumpsuitCentcomOfficerBlack: 5
+    SLClothingUniformJumpsuitCapTurtleneck: 5
+    SLClothingUniformJumpsuitCaptainNoble: 5
+    SLClothingUniformJumpsuitHoPTurtleneck: 5
+    SLClothingUniformJumpsuitHoSBlack: 5
+    SLClothingUniformJumpsuitRDClassical: 5
+    SLClothingUniformJumpsuitVampir: 5
+    SLClothingUniformDama235123: 5
+    SLClothingUniformJumpsuitPerformerClown: 5
+    SLClothingUniformJumpsuitPerformerMime: 5
+    SLClothingUniformJumpsuitClownFormal: 5
+    SLClothingUniformJumpsuitMimeSuaveWhite: 5
+    SLClothingUniformJumpsuitMimeSuaveBlack: 5
+    SLClothingUniformJumpskirtGothic: 5
+    SLClothingUniformJumpskirtMaid: 5
+    SLClothingUniformJumpskirtDressRed: 5
+    SLClothingUniformJumpskirtTango: 5
+    SLClothingUniformJumpskirtVictorianBlack: 5
+    SLClothingUniformJumpskirtReporter: 5
+    SLClothingUniformJumpskirtJournalist: 5
+    SLClothingUniformJumpskirtVictorianrRed: 5
+    SLClothingUniformJumpskirtSuitNurse: 5
+    SLClothingUniformJumpskirtPencilTan: 5
+    SLClothingUniformJumpskirtPencilSpecialOperationsOfficer: 5
+    SLClothingUniformJumpskirtCargoSalvage: 5
+    SLClothingUniformJumpskirtCargoSalvageFormal: 5
+    SLClothingUniformJumpskirtCargoSalvageLead: 5
+    SLClothingUniformJumpskirtMiningSpecialist: 5
+    SLClothingUniformJumpskirtCargoFormal: 5
+    SLClothingUniformJumpskirtScientistFormal: 5
+    SLClothingUniformJumpskirtCoroner: 5
+    SLClothingUniformJumpskirtElegantMaid: 5
+    SLClothingUniformColorJumpskirtRainbow: 5
+    SLClothingUniformJumpskirtSchool: 5
+    SLClothingUniformJumpskirtCapTurtleneck: 5
+    SLClothingUniformJumpskirtHoPTurtleneck: 5
+    SLClothingUniformJumpskirtHoSBlack: 5
+    SLClothingUniformJumpskirtRDClassical: 5
+    SLClothingUniformJulianneVA11HALLA: 5
+    SLClothingUniformElegantLadyDress: 5
+    SLClothingUniformPastryDress: 5
+    SLClothingUniformJumpskirtPerformerClown: 5
+    SLClothingUniformJumpskirtPerformerMime: 5
+    SLClothingUniformJumpskirtClownFormal: 5
+    SLBodysuitJeansUniformSuit: 5
+    SLCamoUniformSuit: 5
+    SLCandyClownUniformSuit: 5
+    SLCoolTanktopUniformSuit: 5
+    SLDruidRobesUniformSuit: 5
+    SLFlamboyantUniformSuit: 5
+    SLFlamencoUniformSuit: 5
+    SLFlyCaptainUniformSuit: 5
+    SLKiltUniformSuit: 5
+    SLLilacDressUniformSuit: 5
+    SLLittleBlackDressUniformSuit: 5
+    SLLumberjackOverallsUniformSuit: 5
+    SLMechanicOverallsUniformSuit: 5
+    SLMessyDressShirtUniformSuit: 5
+    SLMimeFrillsUniformSuit: 5
+    SLOldWomanUniformSuit: 5
+    SLPunkJeansUniformSuit: 5
+    SLRefereeUniformSuit: 5
+    SLSailorUniformSuit: 5
+    SLStripedClownUniformSuit: 5
+    SLSundressUniformSuit: 5
+    SLTatteredClothesUniformSuit: 5
+    SLTieDyeUniformSuit: 5
+    SLTogaUniformSuit: 5
+    SLVintageUniformSuit: 5
+    SLCargoOverallsUniformSuit: 5
+    SLRedRegaliaSuit: 5
+    SLSpottedClownUniformSuit: 5
+    # == Shoes
+    SLClothingUniformBootsVampir: 5
+    SLClothingShoesBootsSalvage1208134: 5
+    SLClothingShoesHighheelShoes: 5
+    # == Neck Accessories
+    SLClothingUniformDama0965: 5
+    SLClothingUniformShinelVampir: 5
+    SLClothingNeckTieGeoffroyblack12: 5
+    SLRedRegaliaCloak: 5
+    # == Head Accessories
+    SLClothingHeadBase0121: 5
+    SLRedRegaliaHat: 5
   contrabandInventory:
     PlushieLamp: 3
   emaggedInventory:

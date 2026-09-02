@@ -2,10 +2,10 @@
   id: CoyoteAds
   values:
     prefix: advertisement-coyote-
-    count: 1
+    count: 6
 
 - type: localizedDataset
   id: CoyoteGoodbyes
   values:
     prefix: thankyou-coyote-
-    count: 1
+    count: 2

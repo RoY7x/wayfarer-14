@@ -2,7 +2,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCoyote
-  name: 
+  name:
   description: A boutique vending machine that offers clothing from a sector named Coyote.
   components:
   - type: VendingMachine
@@ -10,7 +10,7 @@
     offState: off
     brokenState: broken
     normalState: normal-unshaded
-    ejectState: eject-unshaded
+#    ejectState: eject-unshaded
     ejectDelay: 1.8
   - type: DatasetVocalizer
     dataset: CoyoteAds
@@ -34,7 +34,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineDeltaV
-  name: 
+  name:
   description: A boutique vending machine that offers clothing from a sector named DeltaV.
   components:
   - type: VendingMachine
@@ -42,7 +42,7 @@
     offState: off
     brokenState: broken
     normalState: normal-unshaded
-    ejectState: eject-unshaded
+#    ejectState: eject-unshaded
     ejectDelay: 1.8
   - type: DatasetVocalizer
     dataset: DeltaVAds
@@ -66,7 +66,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineDen
-  name: 
+  name:
   description: A boutique vending machine that offers clothing from a sector named Den.
   components:
   - type: VendingMachine
@@ -74,7 +74,7 @@
     offState: off
     brokenState: broken
     normalState: normal-unshaded
-    ejectState: eject-unshaded
+#    ejectState: eject-unshaded
     ejectDelay: 1.8
   - type: DatasetVocalizer
     dataset: DenAds
@@ -93,12 +93,12 @@
   - type: PointLight
     radius: 1.5
     energy: 3.0
-    color: "#326e3f"        
+    color: "#326e3f"
 
 - type: entity
   parent: VendingMachine
   id: VendingMachineGoob
-  name: 
+  name:
   description: A boutique vending machine that offers clothing from a sector named Goob.
   components:
   - type: VendingMachine
@@ -106,7 +106,7 @@
     offState: off
     brokenState: broken
     normalState: normal-unshaded
-    ejectState: eject-unshaded
+#    ejectState: eject-unshaded
     ejectDelay: 1.8
   - type: DatasetVocalizer
     dataset: GoobAds
@@ -125,12 +125,12 @@
   - type: PointLight
     radius: 1.5
     energy: 3.0
-    color: "#326e3f"    
+    color: "#326e3f"
 
 - type: entity
   parent: VendingMachine
   id: VendingMachineHardlight
-  name: 
+  name:
   description: A boutique vending machine that offers clothing from a sector named Hardlight.
   components:
   - type: VendingMachine
@@ -138,7 +138,7 @@
     offState: off
     brokenState: broken
     normalState: normal-unshaded
-    ejectState: eject-unshaded
+#    ejectState: eject-unshaded
     ejectDelay: 1.8
   - type: DatasetVocalizer
     dataset: HardlightAds
@@ -162,7 +162,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineImp
-  name: 
+  name:
   description: A boutique vending machine that offers clothing from a sector named Imp.
   components:
   - type: VendingMachine
@@ -170,7 +170,7 @@
     offState: off
     brokenState: broken
     normalState: normal-unshaded
-    ejectState: eject-unshaded
+#    ejectState: eject-unshaded
     ejectDelay: 1.8
   - type: DatasetVocalizer
     dataset: ImpAds
@@ -226,7 +226,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineMonolith
-  name: 
+  name:
   description: A boutique vending machine that offers clothing from a sector named Monolith.
   components:
   - type: VendingMachine
@@ -234,7 +234,7 @@
     offState: off
     brokenState: broken
     normalState: normal-unshaded
-    ejectState: eject-unshaded
+#    ejectState: eject-unshaded
     ejectDelay: 1.8
   - type: DatasetVocalizer
     dataset: MonolithAds
@@ -258,7 +258,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineStarlight
-  name: 
+  name:
   description: A boutique vending machine that offers clothing from a sector named Starlight.
   components:
   - type: VendingMachine
@@ -266,7 +266,7 @@
     offState: off
     brokenState: broken
     normalState: normal-unshaded
-    ejectState: eject-unshaded
+#    ejectState: eject-unshaded
     ejectDelay: 1.8
   - type: DatasetVocalizer
     dataset: StarlightAds
@@ -290,7 +290,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineWayfarer
-  name: 
+  name:
   description: A boutique vending machine that offers clothing from a multiversal sector named Zekke.
   components:
   - type: VendingMachine
@@ -298,7 +298,7 @@
     offState: off
     brokenState: broken
     normalState: normal-unshaded
-    ejectState: eject-unshaded
+#    ejectState: eject-unshaded
     ejectDelay: 1.8
   - type: DatasetVocalizer
     dataset: WayfarerAds

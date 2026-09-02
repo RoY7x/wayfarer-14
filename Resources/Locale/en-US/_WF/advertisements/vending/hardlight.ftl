@@ -1,3 +1,3 @@
-advertisement-hardlight-1 = Feed Dan to make them big and round.
+advertisement-hardlight-1 = Loathing your clothing? Get a different hue and new!
 
 thankyou-hardlight-1 = We hope you enjoy your purchase!

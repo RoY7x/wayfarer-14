@@ -2,10 +2,10 @@
   id: GoobAds
   values:
     prefix: advertisement-goob-
-    count: 1
+    count: 5
 
 - type: localizedDataset
   id: GoobGoodbyes
   values:
     prefix: thankyou-goob-
-    count: 1
+    count: 2
