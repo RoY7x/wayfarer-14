@@ -2,7 +2,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCoyote
-  name:
+  name: CoyoteDrobe
   description: A boutique vending machine that offers clothing from a sector named Coyote.
   components:
   - type: VendingMachine
@@ -34,7 +34,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineDeltaV
-  name:
+  name: DeltaV-Drobe
   description: A boutique vending machine that offers clothing from a sector named DeltaV.
   components:
   - type: VendingMachine
@@ -66,7 +66,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineDen
-  name:
+  name: DenDrobe
   description: A boutique vending machine that offers clothing from a sector named Den.
   components:
   - type: VendingMachine
@@ -98,7 +98,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineGoob
-  name:
+  name: GoobDrobe
   description: A boutique vending machine that offers clothing from a sector named Goob.
   components:
   - type: VendingMachine
@@ -130,7 +130,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineHardlight
-  name:
+  name: HardlightDrobe
   description: A boutique vending machine that offers clothing from a sector named Hardlight.
   components:
   - type: VendingMachine
@@ -162,7 +162,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineImp
-  name:
+  name: ImpDrobe
   description: A boutique vending machine that offers clothing from a sector named Imp.
   components:
   - type: VendingMachine
@@ -226,7 +226,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineMonolith
-  name:
+  name: MonolithDrobe
   description: A boutique vending machine that offers clothing from a sector named Monolith.
   components:
   - type: VendingMachine
@@ -258,7 +258,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineStarlight
-  name:
+  name: StarlightDrobe
   description: A boutique vending machine that offers clothing from a sector named Starlight.
   components:
   - type: VendingMachine
@@ -290,7 +290,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineWayfarer
-  name:
+  name: WayfarerDrobe
   description: A boutique vending machine that offers clothing from a multiversal sector named Zekke.
   components:
   - type: VendingMachine
