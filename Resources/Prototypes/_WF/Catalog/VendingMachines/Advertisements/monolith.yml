@@ -2,7 +2,7 @@
   id: MonolithAds
   values:
     prefix: advertisement-monolith-
-    count: 1
+    count: 5
 
 - type: localizedDataset
   id: MonolithGoodbyes

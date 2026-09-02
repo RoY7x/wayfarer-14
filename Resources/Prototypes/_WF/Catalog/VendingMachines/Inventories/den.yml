@@ -1,7 +1,7 @@
 - type: vendingMachineInventory
-  id: CoyoteVendInventory
+  id: DenVendInventory
   startingInventory:
-  PlushieLamp: 5
+    PlushieLamp: 5
   contrabandInventory:
     PlushieLamp: 3
   emaggedInventory:

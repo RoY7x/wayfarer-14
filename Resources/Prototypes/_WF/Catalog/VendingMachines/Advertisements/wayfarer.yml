@@ -2,10 +2,10 @@
   id: WayfarerAds
   values:
     prefix: advertisement-wayfarer-
-    count: 1
+    count: 9
 
 - type: localizedDataset
   id: WayfarerGoodbyes
   values:
     prefix: thankyou-wayfarer-
-    count: 1
+    count: 4

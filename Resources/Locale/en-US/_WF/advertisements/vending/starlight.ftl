@@ -1,3 +1,3 @@
-advertisement-starlight-1 = Feed Dan to make them big and round.
+advertisement-starlight-1 = Loathing your clothing? Get a different hue and new!
 
 thankyou-starlight-1 = We hope you enjoy your purchase!
