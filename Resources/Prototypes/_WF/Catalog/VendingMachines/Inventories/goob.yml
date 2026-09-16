@@ -1,7 +1,9 @@
 - type: vendingMachineInventory
   id: GoobVendInventory
   startingInventory:
-    PlushieLamp: 5
+    # == Neck
+    ClothingNeckCloakWhiteCe: 5
+    ClothingNeckMantleWhiteCE: 5
   contrabandInventory:
     PlushieLamp: 3
   emaggedInventory:
